@@ -6,15 +6,12 @@ aiohttp
 aiosignal
 altair
 anyio
-agron2-cffi
-argon2-cffi-bindings
 asttokens
 astunparse
 async-timeout
 attrs
 Babel
 backcall
-beautifulsoup4
 bleach
 blinker
 brotlipy
@@ -25,8 +22,6 @@ charset-normalizer
 click
 colorama
 comm
-cryptography
-datasets
 debugpy
 decorator
 defusedxml
@@ -76,7 +71,6 @@ nbclient
 nbconvert
 nbformat
 nest-asyncio
-nltk
 notebook
 notebook_shim
 oauthlib
@@ -140,7 +134,6 @@ tensorflow-intel
 tensorflow-io-gcs-filesystem
 termcolor
 terminado
-textblob
 tinycss2
 toml
 tomli
