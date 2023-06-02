@@ -151,7 +151,6 @@ webencodings
 websocket-client
 Werkzeug
 wheel
-widgentsnbextension
 win-inet-pton
 wrapt
 xxhash
