@@ -131,7 +131,6 @@ smmap
 sniffio
 soupsieve
 stack-data
-streamlit
 tenacity
 tensorboard
 tensorboard-data-server
