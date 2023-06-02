@@ -27,6 +27,7 @@ def main():
         score=np.array(result['score'])
         st.write("La machine estime que l'émotion est : ", np.array2string(polarity), " avec ",np.array2string(score)," de certitude")
     
+    st.write(" grâce au travail de :")
     st.write("Théophile Blard, French sentiment analysis with BERT, (2020), GitHub repository, https://github.com/TheophileBlard/french-sentiment-analysis-with-bert")
 
 if __name__ == "__main__":
