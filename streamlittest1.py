@@ -5,7 +5,6 @@
 
 import numpy as np
 import streamlit as st
-from textblob import TextBlob
 from transformers import AutoTokenizer, TFAutoModelForSequenceClassification
 from transformers import pipeline
 
