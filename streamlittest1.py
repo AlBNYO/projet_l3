@@ -25,7 +25,9 @@ def main():
         result = analyze_sentiment(sentiment)
         polarity = np.array(result['label'])
         score=np.array(result['score'])
-        st.write("Le sentiment est :", np.array2string(polarity), " à ",np.array2string(score)," de certitude")
+        st.write("La machine estime que l'émotion est : ", np.array2string(polarity), " avec ",np.array2string(score)," de certitude")
+    
+    st.write("Théophile Blard, French sentiment analysis with BERT, (2020), GitHub repository, https://github.com/TheophileBlard/french-sentiment-analysis-with-bert")
 
 if __name__ == "__main__":
     main()
